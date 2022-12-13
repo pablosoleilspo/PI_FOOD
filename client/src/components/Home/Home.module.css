@@ -1,0 +1,100 @@
+.principal{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-image: url('../Home/textura.jpg');
+    width: 100%;
+ 
+}
+
+body {
+    background-color: #faedcd;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+
+.filterscontainer{
+    display: flex;
+    flex-direction: row wrap;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      padding: 0 1em;
+      max-width: 1200px;
+      width: 100%;
+      font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+.select{
+    width: 60%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-size: 16px;
+    color: #333;
+    margin: 1em 0.5em 2em;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+
+
+.select:hover{
+    border: 1px solid rgba(67, 97, 31, 0.822);
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.logo{
+  width: 100px;
+  height: 100px;
+    border-radius: 100px;
+}
+.card {
+
+    max-width: 1200px;
+    min-height: 80vh;
+    margin: 0 auto;
+    grid-template-columns: repeat(auto-fill, 300px);
+    padding: 0;
+    width: 100%;
+    padding: 40px 0;
+    border-radius: 7px;
+    background-image: url('../Home/textura.jpg');
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 40px;
+    row-gap: 50px;
+}
+
+.detailink{
+    margin: 0;
+    width: 30rem;
+}
+
+.button{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #faedcd;
+    border: 2px;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    padding: 5px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+
+  .button:hover {
+    padding-right: 25px;
+  }
+ 

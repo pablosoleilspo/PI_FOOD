@@ -1,0 +1,36 @@
+.input {
+    height:30px ;
+    width:500px ;
+    background: #fefae0;
+    border: 2px solid #283618;
+    border-radius: 5px 5px 5px 5px;
+    color: #283618;
+    font-size: 20px;
+    padding: 5px;
+    margin: 10px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+.button{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #faedcd;
+    border: 2px;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    padding: 5px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+
+  .button:hover {
+    padding-right: 25px;
+  }
+ 

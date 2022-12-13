@@ -1,0 +1,64 @@
+.recipedetail{
+    position: relative;
+    color:white;
+    left: 30vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 930px;
+    padding: 27px 0;
+     min-height: 1000px;
+     margin: 40px;
+    background-image:url('../RecipeDetail/textura.jpg');
+    border-radius: 1rem;
+    border: #a98467 0.2rem solid;
+    transition: all 0.4s ease-in;
+    box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+}
+.recipedetail:hover {
+    transform: translateY(-1.5rem);
+    border: #a5a58d.2em solid;
+    border-radius: 2.5rem 0 2.5rem 0;
+}
+
+.image{
+    border-radius: 10px;
+    width: 600px;
+    height: 500px;
+}
+
+.text{
+padding:0 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.diets{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    bottom: 0;
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #faedcd;
+    border: 2px;
+    color: black;
+    text-align: center;
+    font-size: 19px;
+    padding: 5px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    font-family: 'Dancing Script', cursive;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Playfair Display', serif;
+}
+
+  .button:hover {
+    padding-right: 25px;
+  }

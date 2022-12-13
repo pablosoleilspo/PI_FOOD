@@ -1,0 +1,26 @@
+
+.Card {
+    color:#22333b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 500px;
+     height: 400px;
+    background-color: #faedcd;
+    border-radius: 1rem;
+    border: #a98467 0.2rem solid;
+    transition: all 0.4s ease-in;
+    box-shadow: 0.4rem 0.4rem 0.6rem #00000040;
+   }
+   
+   .Card:hover {
+    transform: translateY(-1.5rem);
+    border: #a5a58d.2em solid;
+    border-radius: 2.5rem 0 2.5rem 0;
+   }
+
+.image{
+    border-radius: 8px;
+} 
