@@ -19,6 +19,7 @@ export default function Home() {
 
 const [currentpage, setCurrentPage] = useState(1); //lo seteo en un 1 porque siempre arranco por la primer pagina
 const [order, setOrder] = useState("")
+
 const recipesPerPage = 9; // cantidad de recetas por pagina
 
   const indexOfLastRecipe = currentpage * recipesPerPage;
@@ -30,12 +31,12 @@ const recipesPerPage = 9; // cantidad de recetas por pagina
     setCurrentPage(pageNumber);
   };
 
-  useEffect(() => {// si esta presente el componente  define efectos 
+  useEffect(() => {
     dispatch(getAllRecipes());
     dispatch(getDiets());
   }, [dispatch]);
-
-//   
+// si esta presente el componente  define efectos que 
+// nos permiten ejecutar un trozo de código según el momento en el que se encuentre el ciclo de vida de nuestro componente.
 
 
 function handlerSortName(e){ 

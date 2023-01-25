@@ -83,31 +83,18 @@ export default function RecipeCreate() {
 
     
     function handleSelect(e) {
-      setInput({
-              ...input,
+      if(!input.diets.includes(e.target.value)){
+            setInput({
+               ...input,
               diets: [...input.diets,e.target.value]
-          }); 
+           }); 
+      
           setErrors(validate({
                 ...input, 
                 diets: [...input.diets, e.target.value]
             }));
           }
-    //   if(!input.diets.includes(e.target.value)){
-    //     setInput({
-    //       ...input,
-    //       diets: [...input.diets,e.target.value]
-    //   }); 
-    //   }else{
-    //     setInput({
-    //       ...input,
-    //   })
-
-    //   setErrors(validate({
-    //     ...input, 
-    //     diets: [...input.diets, e.target.value]
-    // }));
-   
-    // }}
+        }
 
 
     async function handleSubmit(e) {

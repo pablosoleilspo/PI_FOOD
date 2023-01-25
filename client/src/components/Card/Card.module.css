@@ -1,6 +1,6 @@
 
 .Card {
-    color:#22333b;
+    color:#c2c5aa;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -8,7 +8,7 @@
     gap: 10px;
     width: 500px;
      height: 400px;
-    background-color: #faedcd;
+    background-color: #414833;
     border-radius: 1rem;
     border: #a98467 0.2rem solid;
     transition: all 0.4s ease-in;

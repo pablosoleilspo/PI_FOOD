@@ -4,11 +4,11 @@
     align-items: center;
     background-image: url('../Home/textura.jpg');
     width: 100%;
- 
+  
 }
 
 body {
-    background-color: #faedcd;
+    background-color: #b6ad90;
     font-family: 'Dancing Script', cursive;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Playfair Display', serif;
@@ -30,6 +30,7 @@ font-family: 'Playfair Display', serif;
 .select{
     width: 60%;
     height: 40px;
+    background-color: #fefae0;
     border: none;
     border-radius: 5px;
     padding: 0 10px;
@@ -79,7 +80,7 @@ font-family: 'Playfair Display', serif;
 .button{
     display: inline-block;
     border-radius: 4px;
-    background-color: #faedcd;
+    background-color: #fefae0;
     border: 2px;
     color: black;
     text-align: center;
