@@ -4,7 +4,7 @@ import axios from 'axios'
 
 export const getDiets = () => async (dispatch) => {
     try {
-        const diets = await axios.get('http://localhost:3001/diets');
+        const diets = await axios.get('pifood-production-911b.up.railway.app/diets');
         dispatch({ type: 'GET_DIETS', payload: diets.data }); 
     } catch (error) {
         console.log(error)
@@ -14,7 +14,7 @@ export const getDiets = () => async (dispatch) => {
 export const getAllRecipes = () => {
     return async(dispatch) => {
     try {
-        const response = await axios.get('http://localhost:3001/recipes')//coneccion conel back
+        const response = await axios.get('pifood-production-911b.up.railway.app/recipes')//coneccion conel back
         dispatch({//Dispatch: Es una función que permite lanzar acciones (actions) al store, con la intención de afectar el estado.
             type: 'GET_ALL_RECIPES',
             payload: response.data
@@ -29,7 +29,7 @@ export const getAllRecipes = () => {
 export const getRecipesName = (name) => {
     return async (dispatch) => {
         try {
-           const response =  await axios.get(`http://localhost:3001/recipes?name=${name}`)
+           const response =  await axios.get(`pifood-production-911b.up.railway.app/recipes?name=${name}`)
            dispatch({
             type: 'GET_RECIPES_NAME',
             payload: response.data
@@ -44,7 +44,7 @@ export const getRecipesName = (name) => {
 export const getRecipe = (id) => {
     return async (dispatch) => {
         try {
-            const response = await axios.get(`http://localhost:3001/recipes/${id}`)
+            const response = await axios.get(`pifood-production-911b.up.railway.app/recipes/${id}`)
                 dispatch({
                     type: 'GET_RECIPE',
                     payload: response.data
@@ -65,7 +65,7 @@ export const cleanDetail = () => (dispatch) => {
 
 export const createRecipes = (payload) => { 
     return async function () {
-        let response = await axios.post('http://localhost:3001/recipes', payload) 
+        let response = await axios.post('pifood-production-911b.up.railway.app/recipes', payload) 
     return response 
     } 
  }
